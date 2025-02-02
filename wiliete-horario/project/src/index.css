@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #008000;
+  --color-secondary: #A4D65E;
+  --color-white: #FFFFFF;
+  --color-gray-light: #F0F0F0;
+}
+
+body {
+  @apply bg-gray-50;
+}
+
+.prose {
+  @apply max-w-none;
+}
+
+.prose p {
+  @apply text-gray-700;
+}
+
+.prose strong {
+  @apply text-green-800;
+}
